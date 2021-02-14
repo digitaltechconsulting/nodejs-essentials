@@ -14,6 +14,8 @@ eventEmitter.emit('someOneAtDoor');
 
 //readable stream
 //writable stream
+//Duplex stream
+//Transform - When the out put is computed based on the input
 let file = 'input.txt'
 var readableStream = fs.createReadStream(file)
 readableStream.setEncoding('utf-8')
